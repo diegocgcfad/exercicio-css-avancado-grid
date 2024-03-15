@@ -1,0 +1,75 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+.main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 17px;
+    padding: 40px;
+}
+
+.video {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    grid-gap: 12px;
+}
+
+.video-player {
+    background-color: #c4c4c4;
+}
+
+.video-description h1 {
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.video-description .views {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.video-description .description {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.aside {
+    display: grid;
+    grid-template-rows: repeat(4, 90px);
+    grid-gap: 15px;
+}
+
+.propaganda {
+    background: #c4c4c4 url(../img/batata.jpeg);
+    background-size: contain;
+    margin-bottom: 5px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.suggested {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 5px;
+}
+
+.suggested-video {
+    background: #c4c4c4 url(../img/guitar.jpeg) no-repeat;
+    background-size: cover;
+    min-width: 100px;
+    min-height: 70px;
+}
+
+.suggested-description h2 {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.suggested-description p {
+    font-size: 11px;
+    font-weight: 300;
+    margin-top: 5px;
+}

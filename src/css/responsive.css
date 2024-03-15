@@ -1,0 +1,10 @@
+@media(max-width: 768px){
+    .main {
+        grid-template-columns: 100%;
+        grid-gap: 40px;
+    }
+
+    .suggested:last-child {
+        margin-bottom: 40px;
+    }
+}
